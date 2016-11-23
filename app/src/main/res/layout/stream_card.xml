@@ -19,7 +19,8 @@
 
         <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="200dp">
+            android:layout_height="200dp"
+            android:visibility="gone">
 
             <ImageView
                 android:id="@+id/card_title_image"
@@ -47,9 +48,9 @@
                 android:textColor="@color/basicColor"
                 android:paddingTop="5dp"
                 android:paddingBottom="5dp"
-                android:singleLine="true"
+                android:singleLine="false"
                 android:ellipsize="end"
-                android:textSize="32sp"/>
+                android:textSize="16sp"/>
 
             <TextView
                 android:id="@+id/card_time_text"
@@ -63,6 +64,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
                 android:ellipsize="end"
                 android:lines="2"
                 android:textColor="@color/colorPrimaryText"
@@ -73,6 +75,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
                 android:layout_marginTop="8dp"
+                android:visibility="gone"
                 >
 
                 <Button

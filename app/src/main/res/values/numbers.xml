@@ -6,7 +6,7 @@
     <string name="settings_default_foreground_scan_period">3000</string>
     <string name="settings_default_foreground_between_scan_period">10000</string>
 
-    <string name="settings_default_beacon_range">5</string>
+    <string name="settings_default_beacon_range">20</string>
 
     <string name="settings_beacon_range_1meter">1</string>
     <string name="settings_beacon_range_2meter">2</string>

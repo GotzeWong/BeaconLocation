@@ -36,7 +36,9 @@ import com.kyvlabs.brrr2.utils.DialogHelper;
 
 import org.altbeacon.beacon.BeaconManager;
 
+import java.util.ArrayList;
 import java.util.Collection;
+import java.util.List;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -51,14 +53,15 @@ public class CityStreamFragment extends TitledFragment implements CityStreamMvpV
     protected static final String LOG_TAG = "BRRR2";
 
     private static final int LAYOUT = R.layout.fragment_city_stream;
-    @Bind(R.id.city_stream_recycler_view)
-    RecyclerView mRecyclerView;
+    //@Bind(R.id.city_stream_recycler_view)
+    static RecyclerView mRecyclerView;
     @Bind(R.id.city_stream_swipe_refresh_layout)
     SwipeRefreshLayout mSwipeRefreshLayout;
     private static CityStreamRecyclerAdapter cityStreamRecyclerAdapter;
     private CityStreamPresenter cityStreamPresenter = new CityStreamPresenter();
 
     private static Handler UIHandler = new Handler(Looper.getMainLooper());
+    private static Context context = null;
 
     public static CityStreamFragment getInstance(Context context) {
         Bundle args = new Bundle();
@@ -132,10 +135,12 @@ public class CityStreamFragment extends TitledFragment implements CityStreamMvpV
         ButterKnife.bind(this, v);
 
 
-
+        mRecyclerView = (RecyclerView)v.findViewById(R.id.city_stream_recycler_view);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
         cityStreamRecyclerAdapter = new CityStreamRecyclerAdapter(getContext(), Application.getBeaconList());
         mRecyclerView.setAdapter(cityStreamRecyclerAdapter);
+
+        context = getContext();
 
         cityStreamPresenter.attachView(this);
 
@@ -150,6 +155,7 @@ public class CityStreamFragment extends TitledFragment implements CityStreamMvpV
                 requestCoarseLocationPermission();
                 verifyBluetooth();
                 cityStreamPresenter.loadNewCard();
+
             }
         });
 
@@ -204,7 +210,31 @@ public class CityStreamFragment extends TitledFragment implements CityStreamMvpV
 
     //set beacons collection to list after reading from db
     public static void setBeacons(Collection<BeaconIds> beacons) {
-        getBeaconsFromDB(beacons);
+        //getBeaconsFromDB(beacons);
+        addBeaconToAdapter(beacons);
+    }
+
+    private static void addBeaconToAdapter(final Collection<BeaconIds> beacons) {
+        runOnUi(new Runnable() {
+            @Override
+            public void run() {
+                if(null != beacons && beacons.size() > 0)
+                Log.d(LOG_TAG, "addBeaconToAdapter ;" + beacons.size() + " beacons");
+                List<DBBeacon> beaconList = new ArrayList<DBBeacon>();
+                for (BeaconIds ids : beacons) {
+                    DBBeacon dbBeacon = new DBBeacon();
+                    dbBeacon.setIds(ids);
+                    beaconList.add(dbBeacon);
+                }
+                Application.setBeaconList(beaconList);
+
+                cityStreamRecyclerAdapter = new CityStreamRecyclerAdapter(context, Application.getBeaconList());
+                mRecyclerView.setAdapter(cityStreamRecyclerAdapter);
+                cityStreamRecyclerAdapter.notifyDataSetChanged();
+                Log.d(LOG_TAG, "addBeaconToAdapter ;" + cityStreamRecyclerAdapter.getItemCount() + " cityStreamRecyclerAdapter");
+
+            }
+        });
     }
 
     //After scanning reading founded beacons list from dB.

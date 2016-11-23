@@ -149,6 +149,7 @@ public class MainActivity extends AppCompatActivity
 
 
                 CityStreamFragment.setBeacons(new ArrayList<>(getIdsFromBeacons(beacons)));
+
             }
         });
         try {

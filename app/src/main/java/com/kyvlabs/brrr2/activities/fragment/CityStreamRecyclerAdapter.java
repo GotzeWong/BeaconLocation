@@ -125,10 +125,13 @@ public class CityStreamRecyclerAdapter extends RecyclerView.Adapter<CityStreamRe
                     .into(titleImage);
 
             titleText.setText(beacon.getTitle());
+            titleText.setText(beacon.getIds().toString());
 
             timeText.setText(DateUtils.currentTimeToDate());
+            mainText.setText(beacon.getIds().getRssi().toString());
 //            timeText.setText(beacon.getNextUpdateTime()+"");
-            mainText.setText(Html.fromHtml(beacon.getDescription(), null, new HtmlTagHandler()));
+            if(null != beacon.getDescription() && beacon.getDescription().length() > 0)
+                mainText.setText(Html.fromHtml(beacon.getDescription(), null, new HtmlTagHandler()));
 
             actionButton1.setText(StringHelper.getStrRes(Application.getAppContext(),R.string.detail_btn_locate));
             actionButton2.setText(StringHelper.getStrRes(Application.getAppContext(),R.string.detail_btn_more));

@@ -125,6 +125,7 @@ public class NetworkHelper {
     }
 
     public Observable<BeaconModel> getBeacons(Collection<BeaconIds> beacons, String auth) {
+
         if (isOnline()) {
             Retrofit retrofit = new Retrofit.Builder()
                     .baseUrl(SERVER_API_URL)
