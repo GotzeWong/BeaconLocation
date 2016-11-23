@@ -1,0 +1,9 @@
+<!--database test menu-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.kyvlabs.beaconadvertiser.activities.support.DBActivity">
+    <item
+        android:id="@+id/add"
+        android:showAsAction="ifRoom"
+        android:title="@string/add"/>
+</menu>

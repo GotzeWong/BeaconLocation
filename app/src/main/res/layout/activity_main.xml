@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/container"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@color/orange"
+              android:orientation="vertical"
+              tools:context="com.kyvlabs.beaconadvertiser.activities.MainActivity"
+              tools:ignore="MergeRootFrame">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:minHeight="40dip"/>
+
+    <ImageView
+        android:id="@+id/brrr_image"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="25"
+        android:contentDescription="@string/no_picture"
+        android:src="@drawable/brrr_icon"/>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:minHeight="40dip"/>
+
+    <fragment
+        android:id="@+id/walk_or_talk_fragment"
+        android:name="com.kyvlabs.beaconadvertiser.activities.WalkOrTalkFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="25"
+        tools:layout="@layout/fragment_walk_or_talk"/>
+
+    <fragment
+        android:id="@+id/icebreaker_fragment"
+        android:name="com.kyvlabs.beaconadvertiser.activities.IcebreakerFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="15"
+        tools:layout="@layout/fragment_icebreaker"/>
+
+    <fragment
+        android:id="@+id/fragment_close"
+        android:name="com.kyvlabs.beaconadvertiser.activities.CloseFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="15"
+        tools:layout="@layout/fragment_close"/>
+</LinearLayout>

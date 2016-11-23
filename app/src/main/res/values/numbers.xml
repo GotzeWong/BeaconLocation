@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="settings_default_background_scan_period">3000</string>
+    <string name="settings_default_background_between_scan_period">50000</string>
+    <string name="settings_default_foreground_scan_period">3000</string>
+    <string name="settings_default_foreground_between_scan_period">10000</string>
+
+    <string name="settings_default_beacon_range">5</string>
+
+    <string name="settings_beacon_range_1meter">1</string>
+    <string name="settings_beacon_range_2meter">2</string>
+    <string name="settings_beacon_range_3meter">3</string>
+    <string name="settings_beacon_range_4meter">4</string>
+    <string name="settings_beacon_range_5meter">5</string>
+    <string name="settings_beacon_range_10meter">10</string>
+    <string name="settings_beacon_range_50meter">50</string>
+    <string name="settings_beacon_range_100meter">100</string>
+
+    <string name="update_time_period">2592000000</string>
+
+    <string name="settings_default_cache_time">@string/settings_cache_time_1month</string>
+    <string name="settings_cache_time_minute">60000</string>
+    <string name="settings_cache_time_5minutes">300000</string>
+    <string name="settings_cache_time_1hour">3600000</string>
+    <string name="settings_cache_time_6hours">21600000</string>
+    <string name="settings_cache_time_1day">86400000</string>
+    <string name="settings_cache_time_1week">604800000</string>
+    <string name="settings_cache_time_1month">2592000000</string>
+</resources>

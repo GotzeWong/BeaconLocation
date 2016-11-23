@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="tokenautocomplete-2.0.2">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.splitwise/tokenautocomplete/2.0.2/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.splitwise/tokenautocomplete/2.0.2/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.splitwise/tokenautocomplete/2.0.2/3a808c1e69ea23740d24d0834f3dac5b6c457938/tokenautocomplete-2.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

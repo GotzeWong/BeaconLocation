@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="horizontal"
+              android:weightSum="100"
+              tools:context="com.kyvlabs.beaconadvertiser.activities.CloseFragment">
+
+    <RelativeLayout
+        android:id="@+id/blank"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="85"/>
+
+    <ImageButton
+        android:id="@+id/x_button"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="end"
+        android:layout_weight="15"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/no_picture"
+        android:scaleType="fitCenter"
+        android:src="@drawable/x_button_selector"/>
+
+</LinearLayout>

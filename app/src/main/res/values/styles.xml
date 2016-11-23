@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:actionBarStyle">@style/action_bar_style</item>
+        <item name="android:popupMenuStyle">@style/menu_style</item>
+
+        <item name="android:actionBarWidgetTheme">@style/AppTheme</item>
+    </style>
+    <!-- themes for UI elements-->
+    <style name="action_bar_style" parent="android:Widget.ActionBar">
+        <item name="android:background">@drawable/gradient_actionbar</item>
+    </style>
+
+    <style name="menu_style" parent="android:Theme.Holo.Light">
+        <item name="android:popupBackground">@color/blue_light</item>
+    </style>
+
+    <style name="walk_or_talk_text">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="ad_title_text">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="ad_description_text">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+</resources>

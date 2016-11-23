@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Colors for ui-->
+<resources>
+    <color name="orange">#ed4b2d</color>
+    <color name="orange_light">#f8a37f</color>
+    <color name="blue">#009cab</color>
+    <color name="blue_light">#6fc3ce</color>
+    <color name="background_holo_light">#b92a2a</color>
+    <color name="holo_light_primary">#8b1212</color>
+</resources>

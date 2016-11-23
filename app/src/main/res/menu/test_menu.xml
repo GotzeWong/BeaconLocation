@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--menu items for testing menu-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<item-->
+    <!--android:id="@+id/action_db"-->
+    <!--android:orderInCategory="100"-->
+    <!--android:showAsAction="never"-->
+    <!--android:title="@string/title_activity_db"/>-->
+    <item
+        android:id="@+id/action_clear_timestamps_from_db"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/title_clear_timestamps_from_db"/>
+    <!--<item-->
+    <!--android:id="@+id/testbutton"-->
+    <!--android:orderInCategory="100"-->
+    <!--android:showAsAction="always"-->
+    <!--android:icon="@android:drawable/ic_menu_view"-->
+    <!--android:title="TEST"/>-->
+    <item
+        android:id="@+id/logout_button"
+        android:icon="@drawable/ic_action_action_exit"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="TEST"/>
+</menu>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_entries_cache_time">
+        <item>@string/settings_title_cache_time_minute</item>
+        <item>@string/settings_title_cache_time_5minutes</item>
+        <item>@string/settings_title_cache_time_1hour</item>
+        <item>@string/settings_title_cache_time_6hours</item>
+        <item>@string/settings_title_cache_time_1day</item>
+        <item>@string/settings_title_cache_time_1week</item>
+        <item>@string/settings_title_cache_time_1month</item>
+    </string-array>
+
+    <string-array name="settings_values_cache_time">
+        <item>@string/settings_cache_time_minute</item>
+        <item>@string/settings_cache_time_5minutes</item>
+        <item>@string/settings_cache_time_1hour</item>
+        <item>@string/settings_cache_time_6hours</item>
+        <item>@string/settings_cache_time_1day</item>
+        <item>@string/settings_cache_time_1week</item>
+        <item>@string/settings_cache_time_1month</item>
+    </string-array>
+
+    <string-array name="settings_entries_beacon_range">
+        <item>@string/settings_title_beacon_range_1meter</item>
+        <item>@string/settings_title_beacon_range_2meter</item>
+        <item>@string/settings_title_beacon_range_3meter</item>
+        <item>@string/settings_title_beacon_range_4meter</item>
+        <item>@string/settings_title_beacon_range_5meter</item>
+        <item>@string/settings_title_beacon_range_10meter</item>
+        <item>@string/settings_title_beacon_range_50meter</item>
+        <item>@string/settings_title_beacon_range_100meter</item>
+    </string-array>
+
+    <string-array name="settings_values_beacon_range">
+        <item>@string/settings_beacon_range_1meter</item>
+        <item>@string/settings_beacon_range_2meter</item>
+        <item>@string/settings_beacon_range_3meter</item>
+        <item>@string/settings_beacon_range_4meter</item>
+        <item>@string/settings_beacon_range_5meter</item>
+        <item>@string/settings_beacon_range_10meter</item>
+        <item>@string/settings_beacon_range_50meter</item>
+        <item>@string/settings_beacon_range_100meter</item>
+    </string-array>
+</resources>
