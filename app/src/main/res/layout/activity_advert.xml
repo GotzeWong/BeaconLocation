@@ -3,12 +3,12 @@
              android:id="@+id/container"
              android:layout_width="match_parent"
              android:layout_height="match_parent"
-             tools:context="com.kyvlabs.beaconadvertiser.activities.AdvertActivity"
+             tools:context="com.kyvlabs.brrr2.activities.AdvertActivity"
              tools:ignore="MergeRootFrame">
 
     <fragment
         android:id="@+id/advert_fragment"
-        android:name="com.kyvlabs.beaconadvertiser.activities.AdvertFragment"
+        android:name="com.kyvlabs.brrr2.activities.AdvertFragment"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         tools:layout="@layout/fragment_advert">

@@ -7,4 +7,21 @@
     <color name="blue_light">#6fc3ce</color>
     <color name="background_holo_light">#b92a2a</color>
     <color name="holo_light_primary">#8b1212</color>
+
+
+    <color name="colorPrimary">#F24F11</color>
+    <color name="colorPrimaryDark">#F24F11</color>
+    <color name="colorAccent">#F24F11</color>
+    <color name="basicColor">#F24F11</color>
+    <color name="colorSecondary">#00A1B1</color>
+    <color name="White">#FFF</color>
+
+    <color name="colorToolBarText">#FFFFFF</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#727272</color>
+    <color name="colorIcons">#FFFFFF</color>
+    <color name="colorDivider">#B6B6B6</color>
+    <color name="colorControlNormal">#FFFFFF</color>
+
+    <color name="cyan_500">#00bcd4</color>
 </resources>

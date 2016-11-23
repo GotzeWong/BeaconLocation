@@ -7,57 +7,60 @@
         android:inputType="number"
         android:key="@string/settings_key_beacon_range"
         android:summary="@string/settings_summary_beacon_range"
-        android:title="@string/settings_title_beacon_range" />
-    <PreferenceCategory android:title="@string/settings_category_title_scan_period">
+        android:title="@string/settings_title_beacon_range"
+        />
+    <PreferenceCategory
+        android:title="@string/settings_category_title_scan_period">
         <EditTextPreference
             android:defaultValue="@string/settings_default_background_scan_period"
             android:inputType="number"
             android:key="@string/settings_key_background_scan_period"
             android:summary="@string/settings_summary_background_scan_period"
-            android:title="@string/settings_title_background_scan_period" />
+            android:title="@string/settings_title_background_scan_period"
+            />
         <EditTextPreference
             android:defaultValue="@string/settings_default_background_between_scan_period"
             android:inputType="number"
             android:key="@string/settings_key_background_between_scan_period"
             android:summary="@string/settings_summary_background_between_scan_period"
-            android:title="@string/settings_title_background_between_scan_period" />
+            android:title="@string/settings_title_background_between_scan_period"
+            />
         <EditTextPreference
             android:defaultValue="@string/settings_default_foreground_scan_period"
             android:inputType="number"
             android:key="@string/settings_key_foreground_scan_period"
             android:summary="@string/settings_summary_foreground_scan_period"
-            android:title="@string/settings_title_foreground_scan_period" />
+            android:title="@string/settings_title_foreground_scan_period"
+            />
         <EditTextPreference
             android:defaultValue="@string/settings_default_foreground_between_scan_period"
             android:inputType="number"
             android:key="@string/settings_key_foreground_between_scan_period"
             android:summary="@string/settings_summary_foreground_between_scan_period"
-            android:title="@string/settings_title_foreground_between_scan_period" />
+            android:title="@string/settings_title_foreground_between_scan_period"
+            />
     </PreferenceCategory>
 
-    <PreferenceCategory android:title="@string/settings_category_title_caching">
+    <PreferenceCategory
+        android:title="@string/settings_category_title_caching">
         <SwitchPreference
             android:defaultValue="true"
             android:key="@string/settings_key_cache_enabled"
             android:summary="@string/settings_summary_cache_enabled"
-            android:title="@string/settings_title_cache_enabled" />
+            android:title="@string/settings_title_cache_enabled"
+            />
         <ListPreference
             android:defaultValue="@string/settings_default_cache_time"
             android:entries="@array/settings_entries_cache_time"
             android:entryValues="@array/settings_values_cache_time"
             android:key="@string/settings_key_cache_time"
             android:summary="@string/settings_summary_cache_time"
-            android:title="@string/settings_title_cache_time" />
+            android:title="@string/settings_title_cache_time"
+            />
         <Preference
             android:key="@string/settings_key_clear_cache"
             android:summary="@string/settings_summary_clear_cache"
-            android:title="@string/settings_title_clear_cache" />
-    </PreferenceCategory>
-
-    <PreferenceCategory android:title="@string/settings_category_title_account">
-        <Preference
-            android:key="@string/settings_key_list_of_groups"
-            android:summary="@string/settings_summary_list_of_groups"
-            android:title="@string/settings_title_list_of_groups" />
+            android:title="@string/settings_title_clear_cache"
+            />
     </PreferenceCategory>
 </PreferenceScreen>

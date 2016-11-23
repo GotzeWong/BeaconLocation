@@ -4,8 +4,8 @@
     <string name="region_uuid">ebefd083-70a2-47c8-9837-e7b5634df524</string>
 
     <string name="saved_auth_key">saved_auth_key</string>
-    <string name="saved_email">saved_email</string>
-    <string name="saved_password">saved_password</string>
+    <string name="is_group_selecte_all">is_group_selecte_all</string>
+    <string name="set_group_selected">set_group_selected</string>
 
     <string name="facebook_app_id">742204755912110</string>
 
@@ -18,6 +18,4 @@
     <string name="settings_key_foreground_between_scan_period">foreground_between_scan_period</string>
 
     <string name="settings_key_beacon_range">beacon_range</string>
-    <string name="settings_key_clear_cache">clear_cache</string>
-    <string name="settings_key_list_of_groups">list_of_groups</string>
 </resources>

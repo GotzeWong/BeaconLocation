@@ -1,7 +1,7 @@
 <!--DB edit menu-->
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
       xmlns:tools="http://schemas.android.com/tools"
-      tools:context="com.kyvlabs.beaconadvertiser.activities.support.BeaconEditActivity">
+      tools:context="com.kyvlabs.brrr2.activities.support.BeaconEditActivity">
     <item
         android:id="@+id/edit_fragment_ok_button"
         android:showAsAction="always"

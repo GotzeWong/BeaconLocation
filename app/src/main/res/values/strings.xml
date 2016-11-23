@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Beacon advertiser</string>
+    <string name="app_name">BRRR2</string>
     <string name="title_activity_test">TestActivity</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_advert">AdvertActivity</string>
     <string name="no_picture">No picture</string>
     <string name="no_title">No title</string>
     <string name="no_description">No description</string>
-    <string name="new_notification_title">You have new a new adt</string>
-    <string name="new_notification_description">Tap to open</string>
+    <string name="new_notification_title">Truck</string>
+    <string name="new_notification_description">Description</string>
     <string name="walk_service_name">Walk scanner</string>
     <string name="talk_service_name">Talk scanner</string>
     <string name="title_activity_db">DB manager</string>
@@ -28,9 +28,10 @@
     <string name="add">Add</string>
     <string name="title_activity_add">Add</string>
     <string name="title_activity_pref">PrefActivity</string>
-    <string name="title_activity_main">BRRR</string>
+    <string name="title_activity_main">BRRR2</string>
+    <string name="title_activity_about">ABOUT</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="title_activity_talk">Talk</string>
+    <string name="title_activity_talk">BRRR2</string>
     <string name="scan_started">Scan is started</string>
     <string name="scan_stopped">Scan is stopped</string>
     <string name="walk_or_talk_fragment_title">SOMEONE IS NEAR!</string>
@@ -40,7 +41,7 @@
     <string name="title_clear_timestamps_from_db">Clear timestamps</string>
     <string name="i_confirm_license">I accept the terms in the license</string>
     <string name="you_need_confirm_license">You need to confirm license terms</string>
-    <string name="settings_category_title_scan_period">Scan periods (in ms)</string>
+    <string name="settings_category_title_scan_period">Scan periods</string>
     <string name="title_activity_settings">Settings</string>
     <string name="settings_title_cache_enabled">Cache enabled</string>
     <string name="settings_summary_cache_enabled">Prefer using local beacon data</string>
@@ -53,10 +54,11 @@
     <string name="settings_title_cache_time_1day">1 day</string>
     <string name="settings_title_cache_time_1week">1 week</string>
     <string name="settings_title_cache_time_1month">1 month</string>
+    <string name="settings_key_clear_cache">clear_cache</string>
     <string name="settings_summary_clear_cache">Delete all info in cache</string>
     <string name="settings_title_clear_cache">Clear cache</string>
     <string name="settings_category_title_caching">Caching</string>
-    <string name="settings_summary_background_scan_period">Defines how long will your device scan for beacons.</string>
+    <string name="settings_summary_background_scan_period">Defines how long will your device scan for beacons in milliseconds.</string>
     <string name="settings_title_background_scan_period">Background scan period</string>
     <string name="settings_summary_background_between_scan_period">Timeout between background scan cycles.</string>
     <string name="settings_title_background_between_scan_period">Background scan timeout</string>
@@ -65,8 +67,7 @@
     <string name="settings_summary_foreground_between_scan_period">Timeout between foreground scan cycles.</string>
     <string name="settings_title_foreground_between_scan_period">Foreground scan timeout</string>
     <string name="settings_title_beacon_range">Beacon search range</string>
-    <string name="settings_summary_beacon_range">Maximum beacon location distance in meters. (Default 5 meters) Или Maximum radius of area where beacons will be searched.</string>
-    <string name="settings_category_title_account">Account</string>
+    <string name="settings_summary_beacon_range">Maximum beacon location distance in meters. (Default 5 meters) Maximum radius of area where beacons will be searched.</string>
 
     <string name="settings_title_beacon_range_1meter">1 m</string>
     <string name="settings_title_beacon_range_2meter">2 m</string>
@@ -81,11 +82,57 @@
     <string name="select_groups">Groups</string>
     <string name="action_forgot_password">Forgot your password</string>
     <string name="forgot_password_success">Password sent to your email</string>
-    <string name="something_wrong">Something wrong with server connection</string>
-    <string name="settings_summary_list_of_groups">List of groups</string>
-    <string name="settings_title_list_of_groups">List of groups</string>
-    <string name="cancel">Cancel</string>
-    <string name="dialog_list_of_groups">Select groups</string>
+    <string name="something_wrong">Something wrong</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="location_permission_limited_message">Since location access has not been granted, this app will not be able to discover beacons.</string>
+    <string name="location_permission_limited_title">Functionality limited</string>
+    <string name="location_permission_predialog_title">This app needs location access</string>
+    <string name="location_permission_predialog_message">Please grant location access so this app can detect beacons.</string>
+
+    <string name="bluetooth_activation_request_title">Bluetooth LE not available</string>
+    <string name="bluetooth_activation_request_message">Sorry, this device does not support Bluetooth LE.</string>
+    <string name="bluetooth_not_activated_title">Bluetooth not enabled</string>
+    <string name="bluetooth_not_activated_message">Please try again, but now enable bluetooth</string>
 
 
+    <string name="main_card_image">main card image</string>
+    <string name="default_text_main">Hura Lama Volokno</string>
+    <string name="default_card_small_grey_text">some text i do not know what we can show here. may be time and date?</string>
+    <string name="content_description_heart">heart</string>
+    <string name="card_button2_text">Info</string>
+    <string name="card_button1_text">Call</string>
+    <string name="city_site_url">https://www.antwerpen.be/en/home</string>
+    <string name="city_stream_load_failed">Load failed</string>
+
+    <string name="action_language">Language</string>
+    <string name="title_activity_detail">DetailActivity</string>
+
+    <string name="navigation_title_all">Beacons</string>
+    <string name="navigation_title_nearby">Nearby</string>
+    <string name="navigation_title_fav">Favorite</string>
+    <string name="navigation_title_search">Locate</string>
+
+    <string name="navigation_title_service">Service</string>
+    <string name="navigation_title_contact">Contact</string>
+    <string name="navigation_title_logout">Logout</string>
+    <string name="navigation_title_about">About</string>
+
+
+    <string name="app_slogan">Connect You and Everything</string>
+
+    <string name="about_name">BRRR2</string>
+    <string name="about_slogan">Connect You and Everything.</string>
+    <string name="about_developer">Developed by Thomas More | Technology &amp; Design</string>
+    <string name="about_developer1">Zaporizhzhya National Technical University</string>
+    <string name="about_developer2">and Jiangnan University</string>
+    <string name="about_link">http://thomasmore.be</string>
+    <string name="about_version">Version 1.0</string>
+    <string name="about_date">April 14, 2016</string>3
+
+    <string name="detail_btn_locate">LOCATE</string>
+    <string name="detail_btn_more">MORE</string>
+    <string name="detail_btn_quit">QUIT</string>
 </resources>

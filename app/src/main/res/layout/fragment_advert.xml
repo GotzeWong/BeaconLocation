@@ -7,14 +7,13 @@
         android:id="@+id/background"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="100dp"
-        android:src="@drawable/no_image" />
+        android:src="@drawable/no_image"/>
 
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context="com.kyvlabs.beaconadvertiser.activities.AdvertActivity$PlaceholderFragment">
+        tools:context="com.kyvlabs.brrr2.activities.AdvertActivity$PlaceholderFragment">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -65,27 +64,24 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
-                    android:paddingBottom="50dp"
-                    android:paddingLeft="45dp"
-                    android:paddingRight="45dp"
-                    android:paddingTop="50dp">
+                    android:padding="70dp">
 
                     <TextView
                         android:id="@+id/ad_title_text"
                         style="@style/ad_title_text"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="22sp" />
+                        android:text="GGDDFGSDGsdgsg"/>
 
                     <TextView
                         android:id="@+id/ad_description_text"
                         style="@style/ad_description_text"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:paddingTop="5dp"
+                        android:paddingTop="10dp"
+                        android:text="FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\nFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\nFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\nFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\nFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\nFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\nFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\nFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\nFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\nFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\n"
                         android:textColorLink="@color/orange"
-                        android:textSize="16sp"
-                        android:textStyle="normal" />
+                        android:textStyle="normal"/>
                 </LinearLayout>
 
             </FrameLayout>
@@ -98,7 +94,6 @@
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:layout_gravity="bottom"
-            android:background="@color/orange"
             android:orientation="horizontal"
             android:weightSum="100">
 

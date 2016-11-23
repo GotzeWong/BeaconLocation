@@ -2,144 +2,523 @@
 <items version="2" >
 
     <item
+        is-multidex="true"
+        jar="E:\Users\Gotze\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.2.1_e13ad594671545a8ad93edcb745531d7376350ee\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="E:\Users\Gotze\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\logging-interceptor\2.6.0\77dc6e1eedd47953b41ef936f20b9b693fe73f6f\logging-interceptor-2.6.0.jar"
         jumboMode="true"
+        optimize="true"
         revision="21.1.2"
         sha1="77dc6e1eedd47953b41ef936f20b9b693fe73f6f">
-        <dex dex="D:\workbench\Android Studio\kyvLabs-beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\logging-interceptor-2.6.0_dc5145b852db84371670bb49cdc589cd7d3b28c8\classes.dex" />
-    </item>
-    <item
-        jar="D:\workbench\Android Studio\kyvLabs-beacon_advertiser\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
-        jumboMode="true"
-        revision="21.1.2"
-        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="D:\workbench\Android Studio\kyvLabs-beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.1.1_1dd518952f8a5c43bb1600e35b22e50f71b5d159\classes.dex" />
-    </item>
-    <item
-        jar="D:\workbench\Android Studio\kyvLabs-beacon_advertiser\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="21.1.2"
-        sha1="d2cd06cd5e027f4d0f0f02af4bb6f9448eccfe8f">
-        <dex dex="D:\workbench\Android Studio\kyvLabs-beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_05774479f705d1842d15308873fc3e6cbecc5978\classes.dex" />
-    </item>
-    <item
-        jar="E:\Users\Gotze\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.0.14\898f9ab61e2a23afd615f0b0389478bec86f49f9\rxjava-1.0.14.jar"
-        jumboMode="true"
-        revision="21.1.2"
-        sha1="898f9ab61e2a23afd615f0b0389478bec86f49f9">
-        <dex dex="D:\workbench\Android Studio\kyvLabs-beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxjava-1.0.14_926ec936150683611897fc78a61b1548b32bcf7a\classes.dex" />
-    </item>
-    <item
-        jar="D:\workbench\Android Studio\kyvLabs-beacon_advertiser\app\build\intermediates\exploded-aar\io.reactivex\rxandroid\1.0.1\jars\classes.jar"
-        jumboMode="true"
-        revision="21.1.2"
-        sha1="aa81bfe8c5cc88c2472ca936ae71f0c3dd1766df">
-        <dex dex="D:\workbench\Android Studio\kyvLabs-beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\io.reactivex-rxandroid-1.0.1_84a9b8113f5ee3c87a3a260652ba4f2f16585d54\classes.dex" />
-    </item>
-    <item
-        jar="E:\Users\Gotze\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.6.0\212387a39088ecd3daff8e3bfc3bdc4123e33c67\okhttp-2.6.0.jar"
-        jumboMode="true"
-        revision="21.1.2"
-        sha1="212387a39088ecd3daff8e3bfc3bdc4123e33c67">
-        <dex dex="D:\workbench\Android Studio\kyvLabs-beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-2.6.0_2d6967bf333842221d8c3c9b530590365f8bf836\classes.dex" />
-    </item>
-    <item
-        jar="D:\workbench\Android Studio\kyvLabs-beacon_advertiser\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        revision="21.1.2"
-        sha1="934016d4187a47b5c6fdb54438d27fce8d99ef52">
-        <dex dex="D:\workbench\Android Studio\kyvLabs-beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_63e2237d8118e3a95603b639d07e7a5e6ce87b2f\classes.dex" />
-    </item>
-    <item
-        jar="E:\Users\Gotze\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
-        jumboMode="true"
-        revision="21.1.2"
-        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
-        <dex dex="D:\workbench\Android Studio\kyvLabs-beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.1.1_02a2216783d842297a71a7a8470a8d998e898eb0\classes.dex" />
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\logging-interceptor-2.6.0_dc5145b852db84371670bb49cdc589cd7d3b28c8\classes.dex" />
     </item>
     <item
         jar="E:\Users\Gotze\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\adapter-rxjava\2.0.0-beta1\27db6ccd014c866500af30d92fbfad0e3cc99ee8\adapter-rxjava-2.0.0-beta1.jar"
         jumboMode="true"
+        optimize="true"
         revision="21.1.2"
         sha1="27db6ccd014c866500af30d92fbfad0e3cc99ee8">
-        <dex dex="D:\workbench\Android Studio\kyvLabs-beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\adapter-rxjava-2.0.0-beta1_b209306cbf332358867e9cee69f9b87601e6733a\classes.dex" />
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\adapter-rxjava-2.0.0-beta1_b209306cbf332358867e9cee69f9b87601e6733a\classes.dex" />
     </item>
     <item
-        jar="E:\Users\Gotze\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\converter-gson\2.0.0-beta1\3de922cdbf9bb3a6f72f6b6b3327cfb348cf445a\converter-gson-2.0.0-beta1.jar"
+        is-multidex="true"
+        jar="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\jars\classes.jar"
         jumboMode="true"
+        optimize="true"
         revision="21.1.2"
-        sha1="3de922cdbf9bb3a6f72f6b6b3327cfb348cf445a">
-        <dex dex="D:\workbench\Android Studio\kyvLabs-beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.0.0-beta1_51d1fa770647af1326a2b9dfe7101f2b40ef7e6c\classes.dex" />
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.2.1_bcecbe2d78b3c36e7697f14812fc151bbc064f24\classes.dex" />
     </item>
     <item
-        jar="D:\workbench\Android Studio\kyvLabs-beacon_advertiser\app\build\intermediates\exploded-aar\com.android.support\customtabs\23.1.1\jars\classes.jar"
+        jar="E:\Users\Gotze\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.6.0\212387a39088ecd3daff8e3bfc3bdc4123e33c67\okhttp-2.6.0.jar"
         jumboMode="true"
+        optimize="true"
         revision="21.1.2"
-        sha1="91514e250eabdb61165eafc821c54bd95c218c47">
-        <dex dex="D:\workbench\Android Studio\kyvLabs-beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-customtabs-23.1.1_637422ce20aa4bdd5a460cb3b756a9cd1d327122\classes.dex" />
+        sha1="212387a39088ecd3daff8e3bfc3bdc4123e33c67">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-2.6.0_2d6967bf333842221d8c3c9b530590365f8bf836\classes.dex" />
     </item>
     <item
-        jar="D:\workbench\Android Studio\kyvLabs-beacon_advertiser\app\build\intermediates\exploded-aar\org.altbeacon\android-beacon-library\2.8.1\jars\classes.jar"
+        is-multidex="true"
+        jar="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\jars\classes.jar"
         jumboMode="true"
+        optimize="true"
         revision="21.1.2"
-        sha1="d635ba0566039772656378e67a302aa3448f5c29">
-        <dex dex="D:\workbench\Android Studio\kyvLabs-beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\org.altbeacon-android-beacon-library-2.8.1_bb6a2e22fbd467b9e920bff9783b0b2ac681e60c\classes.dex" />
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.2.1_0588f4d1a30cddd54f6cf339b4a88066a89bc215\classes.dex" />
     </item>
     <item
-        jar="E:\Users\Gotze\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jar="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\jars\classes.jar"
         jumboMode="true"
+        optimize="true"
         revision="21.1.2"
-        sha1="98476622f10715998eacf9240d6b479f12c66143">
-        <dex dex="D:\workbench\Android Studio\kyvLabs-beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_91faa096f18b31bba3096c7ae57b860c731cdacc\classes.dex" />
-    </item>
-    <item
-        jar="D:\workbench\Android Studio\kyvLabs-beacon_advertiser\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.6.0\jars\classes.jar"
-        jumboMode="true"
-        revision="21.1.2"
-        sha1="1c1afa0ab2a8197a5da1b36c4167a9e479cb74d9">
-        <dex dex="D:\workbench\Android Studio\kyvLabs-beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.android-facebook-android-sdk-4.6.0_dab1bf4055409a70963f2e3c658b19c7ef199c84\classes.dex" />
-    </item>
-    <item
-        jar="E:\Users\Gotze\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.2.0\6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd\bolts-android-1.2.0.jar"
-        jumboMode="true"
-        revision="21.1.2"
-        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
-        <dex dex="D:\workbench\Android Studio\kyvLabs-beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-android-1.2.0_6ee6c96ef921494eeb2a020a4522a2f517e71c8e\classes.dex" />
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.2.1_a9d4410433564f4179333e197714e1fd32219893\classes.dex" />
     </item>
     <item
         jar="E:\Users\Gotze\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
         jumboMode="true"
+        optimize="true"
         revision="21.1.2"
         sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="D:\workbench\Android Studio\kyvLabs-beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_1e547288874c045af4b16cc249113137ed98f803\classes.dex" />
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_1e547288874c045af4b16cc249113137ed98f803\classes.dex" />
+    </item>
+    <item
+        jar="E:\Users\Gotze\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-2.4.0_718cd1af9800a8def11382f7b88fdc9e9d6e27f5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\exploded-aar\com.android.support\customtabs\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="91514e250eabdb61165eafc821c54bd95c218c47">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-customtabs-23.1.1_b083f0be04198c4052c6a3d90075dc2359f7cadf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Users\Gotze\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.0.14\898f9ab61e2a23afd615f0b0389478bec86f49f9\rxjava-1.0.14.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="898f9ab61e2a23afd615f0b0389478bec86f49f9">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxjava-1.0.14_926ec936150683611897fc78a61b1548b32bcf7a\classes.dex" />
+    </item>
+    <item
+        jar="E:\Users\Gotze\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_91faa096f18b31bba3096c7ae57b860c731cdacc\classes.dex" />
+    </item>
+    <item
+        jar="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\exploded-aar\com.rengwuxian.materialedittext\library\2.1.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="288913b440a3c61c30aa171095453a605432277a">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.rengwuxian.materialedittext-library-2.1.4_fe4314adae957aeff224db9f279abd494a7c8e23\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\exploded-aar\com.github.dmytrodanylyk.android-process-button\library\1.0.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="88ccdbf844995d5c9c845e087068d27588b2d026">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.dmytrodanylyk.android-process-button-library-1.0.4_db2bcc40027e771104607c8f25c143840b1172d6\classes.dex" />
+    </item>
+    <item
+        jar="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.2.1_91b6870dc4af18e990bdbd31c37e7d1a6ab35a12\classes.dex" />
+    </item>
+    <item
+        jar="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.2.1_7616760c7046005cd8f5b545e48046cda204c7da\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\exploded-aar\com.android.support\design\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="72961d8b453b46e277702f18de9d210bc019e36e">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.2.1_128a8e1f059b114966b17e3160c6ef136723b18e\classes.dex" />
+    </item>
+    <item
+        jar="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\exploded-aar\com.splitwise\tokenautocomplete\2.0.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="c3e52d6f4535aef3a57701a0f6237f4bbf679b33">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.splitwise-tokenautocomplete-2.0.2_abd507fcf95d40f98faf4e9ded9580537e9c463e\classes.dex" />
+    </item>
+    <item
+        jar="E:\Users\Gotze\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.0.14\898f9ab61e2a23afd615f0b0389478bec86f49f9\rxjava-1.0.14.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="898f9ab61e2a23afd615f0b0389478bec86f49f9">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxjava-1.0.14_926ec936150683611897fc78a61b1548b32bcf7a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="ec985e3cffebe02e115200036b64ed25fff9a4f0">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_bf64cb74cea43701225ad0e5a7e601a9d49fa4ec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.2.1_d3625beb98e5c4475c4639c27af2825bea3837a4\classes.dex" />
     </item>
     <item
         jar="E:\Users\Gotze\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
         jumboMode="true"
+        optimize="true"
         revision="21.1.2"
         sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
-        <dex dex="D:\workbench\Android Studio\kyvLabs-beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.3.1_587f6124375427bd39ca3a4ae36595e9d929b923\classes.dex" />
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.3.1_587f6124375427bd39ca3a4ae36595e9d929b923\classes.dex" />
     </item>
     <item
-        jar="D:\workbench\Android Studio\kyvLabs-beacon_advertiser\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jar="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
+        optimize="true"
         revision="21.1.2"
-        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
-        <dex dex="D:\workbench\Android Studio\kyvLabs-beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.1.1_ce4e70cdc2f9b0e2b596e407db0ecf574b844f78\classes.dex" />
+        sha1="bb3106d1f3ed336b1e0d00c2a883197ed975bdb1">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_24fdfa0647db296aaec11f859547244ea8dfb5b2\classes.dex" />
+    </item>
+    <item
+        jar="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\exploded-aar\io.reactivex\rxandroid\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="aa81bfe8c5cc88c2472ca936ae71f0c3dd1766df">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\io.reactivex-rxandroid-1.0.1_80ab783a500268309d1b6a720176ca311aceeb84\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Users\Gotze\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\2.0.0-beta1\53b5be42d6cf719ac1431b9aa9a4d5ab78856148\retrofit-2.0.0-beta1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="53b5be42d6cf719ac1431b9aa9a4d5ab78856148">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.0.0-beta1_995c5b8d42215ea04b554ecb4250ffdd4ce2389b\classes.dex" />
+    </item>
+    <item
+        jar="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="cb86970df0f0f25f766d320b279c7858c1ca0003">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.2.1_3c243f000c6f774e10e7e7f29bbc21a4f46f5a3d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Users\Gotze\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\adapter-rxjava\2.0.0-beta1\27db6ccd014c866500af30d92fbfad0e3cc99ee8\adapter-rxjava-2.0.0-beta1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="27db6ccd014c866500af30d92fbfad0e3cc99ee8">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\adapter-rxjava-2.0.0-beta1_b209306cbf332358867e9cee69f9b87601e6733a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="1c1afa0ab2a8197a5da1b36c4167a9e479cb74d9">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.android-facebook-android-sdk-4.6.0_a070ef5951717a06553dfa0f216da3d9c0c569b5\classes.dex" />
+    </item>
+    <item
+        jar="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.2.1_0588f4d1a30cddd54f6cf339b4a88066a89bc215\classes.dex" />
+    </item>
+    <item
+        jar="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\exploded-aar\com.pkmmte.view\circularimageview\1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="c341a7ad32bc2eef9dcfab239262b77ac60788cc">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.pkmmte.view-circularimageview-1.1_13f419b143a73f51c9739eaf5d62f3181dc68fd7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Users\Gotze\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.2.0\6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd\bolts-android-1.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-android-1.2.0_6ee6c96ef921494eeb2a020a4522a2f517e71c8e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Users\Gotze\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\converter-gson\2.0.0-beta1\3de922cdbf9bb3a6f72f6b6b3327cfb348cf445a\converter-gson-2.0.0-beta1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="3de922cdbf9bb3a6f72f6b6b3327cfb348cf445a">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.0.0-beta1_51d1fa770647af1326a2b9dfe7101f2b40ef7e6c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.2.1_91b6870dc4af18e990bdbd31c37e7d1a6ab35a12\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\exploded-aar\com.rengwuxian.materialedittext\library\2.1.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="288913b440a3c61c30aa171095453a605432277a">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.rengwuxian.materialedittext-library-2.1.4_fe4314adae957aeff224db9f279abd494a7c8e23\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\exploded-aar\org.altbeacon\android-beacon-library\2.9.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="0b271af1568b43a528bba26d19c5874bb91c34cd">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\org.altbeacon-android-beacon-library-2.9.1_ed852d6a07525edac1471307968f1b97842f6db5\classes.dex" />
+    </item>
+    <item
+        jar="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="1c1afa0ab2a8197a5da1b36c4167a9e479cb74d9">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.android-facebook-android-sdk-4.6.0_a070ef5951717a06553dfa0f216da3d9c0c569b5\classes.dex" />
+    </item>
+    <item
+        jar="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.2.1_bcecbe2d78b3c36e7697f14812fc151bbc064f24\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\exploded-aar\com.splitwise\tokenautocomplete\2.0.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="c3e52d6f4535aef3a57701a0f6237f4bbf679b33">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.splitwise-tokenautocomplete-2.0.2_abd507fcf95d40f98faf4e9ded9580537e9c463e\classes.dex" />
+    </item>
+    <item
+        jar="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\exploded-aar\com.android.support\design\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="72961d8b453b46e277702f18de9d210bc019e36e">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.2.1_128a8e1f059b114966b17e3160c6ef136723b18e\classes.dex" />
+    </item>
+    <item
+        jar="E:\Users\Gotze\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\logging-interceptor\2.6.0\77dc6e1eedd47953b41ef936f20b9b693fe73f6f\logging-interceptor-2.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="77dc6e1eedd47953b41ef936f20b9b693fe73f6f">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\logging-interceptor-2.6.0_dc5145b852db84371670bb49cdc589cd7d3b28c8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.2.1_7616760c7046005cd8f5b545e48046cda204c7da\classes.dex" />
+    </item>
+    <item
+        jar="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="1dfc3076de6df72fe0e69123bfc531272ca27bdd">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_bf64cb74cea43701225ad0e5a7e601a9d49fa4ec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.2.1_a9d4410433564f4179333e197714e1fd32219893\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Users\Gotze\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_1e547288874c045af4b16cc249113137ed98f803\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="6818f365c8c31a67ad3c42ab2b4e0b33a93e1759">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_24fdfa0647db296aaec11f859547244ea8dfb5b2\classes.dex" />
+    </item>
+    <item
+        jar="E:\Users\Gotze\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-7.0.1_ac3fd8dac396d8e8c86bfae038dce462f81ff260\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\exploded-aar\io.reactivex\rxandroid\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="aa81bfe8c5cc88c2472ca936ae71f0c3dd1766df">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\io.reactivex-rxandroid-1.0.1_80ab783a500268309d1b6a720176ca311aceeb84\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Users\Gotze\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-2.4.0_718cd1af9800a8def11382f7b88fdc9e9d6e27f5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Users\Gotze\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.3.1_587f6124375427bd39ca3a4ae36595e9d929b923\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Users\Gotze\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_91faa096f18b31bba3096c7ae57b860c731cdacc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="cb86970df0f0f25f766d320b279c7858c1ca0003">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.2.1_3c243f000c6f774e10e7e7f29bbc21a4f46f5a3d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Users\Gotze\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-7.0.1_ac3fd8dac396d8e8c86bfae038dce462f81ff260\classes.dex" />
+    </item>
+    <item
+        jar="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\exploded-aar\com.github.dmytrodanylyk.android-process-button\library\1.0.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="88ccdbf844995d5c9c845e087068d27588b2d026">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.dmytrodanylyk.android-process-button-library-1.0.4_db2bcc40027e771104607c8f25c143840b1172d6\classes.dex" />
+    </item>
+    <item
+        jar="E:\Users\Gotze\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\converter-gson\2.0.0-beta1\3de922cdbf9bb3a6f72f6b6b3327cfb348cf445a\converter-gson-2.0.0-beta1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="3de922cdbf9bb3a6f72f6b6b3327cfb348cf445a">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.0.0-beta1_51d1fa770647af1326a2b9dfe7101f2b40ef7e6c\classes.dex" />
+    </item>
+    <item
+        jar="E:\Users\Gotze\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.2.0\6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd\bolts-android-1.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-android-1.2.0_6ee6c96ef921494eeb2a020a4522a2f517e71c8e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\exploded-aar\com.pkmmte.view\circularimageview\1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="c341a7ad32bc2eef9dcfab239262b77ac60788cc">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.pkmmte.view-circularimageview-1.1_13f419b143a73f51c9739eaf5d62f3181dc68fd7\classes.dex" />
+    </item>
+    <item
+        jar="E:\Users\Gotze\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.2.1_e13ad594671545a8ad93edcb745531d7376350ee\classes.dex" />
+    </item>
+    <item
+        jar="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.2.1_d3625beb98e5c4475c4639c27af2825bea3837a4\classes.dex" />
+    </item>
+    <item
+        jar="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\exploded-aar\com.android.support\customtabs\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="91514e250eabdb61165eafc821c54bd95c218c47">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-customtabs-23.1.1_b083f0be04198c4052c6a3d90075dc2359f7cadf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Users\Gotze\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.6.0\212387a39088ecd3daff8e3bfc3bdc4123e33c67\okhttp-2.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="212387a39088ecd3daff8e3bfc3bdc4123e33c67">
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-2.6.0_2d6967bf333842221d8c3c9b530590365f8bf836\classes.dex" />
     </item>
     <item
         jar="E:\Users\Gotze\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\2.0.0-beta1\53b5be42d6cf719ac1431b9aa9a4d5ab78856148\retrofit-2.0.0-beta1.jar"
         jumboMode="true"
+        optimize="true"
         revision="21.1.2"
         sha1="53b5be42d6cf719ac1431b9aa9a4d5ab78856148">
-        <dex dex="D:\workbench\Android Studio\kyvLabs-beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.0.0-beta1_995c5b8d42215ea04b554ecb4250ffdd4ce2389b\classes.dex" />
-    </item>
-    <item
-        jar="D:\workbench\Android Studio\kyvLabs-beacon_advertiser\app\build\intermediates\exploded-aar\com.splitwise\tokenautocomplete\2.0.2\jars\classes.jar"
-        jumboMode="true"
-        revision="21.1.2"
-        sha1="c3e52d6f4535aef3a57701a0f6237f4bbf679b33">
-        <dex dex="D:\workbench\Android Studio\kyvLabs-beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.splitwise-tokenautocomplete-2.0.2_8a0b12c903a1681cc41aba237a612b33400c2ed7\classes.dex" />
+        <dex dex="D:\Documents\J.N.U\Belgium\Project\beacon_advertiser\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.0.0-beta1_995c5b8d42215ea04b554ecb4250ffdd4ce2389b\classes.dex" />
     </item>
 
 </items>

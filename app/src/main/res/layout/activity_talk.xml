@@ -3,5 +3,5 @@
              android:id="@+id/container"
              android:layout_width="match_parent"
              android:layout_height="match_parent"
-             tools:context="com.kyvlabs.beaconadvertiser.activities.TalkActivity"
+             tools:context="com.kyvlabs.brrr2.activities.TalkActivity"
              tools:ignore="MergeRootFrame"/>

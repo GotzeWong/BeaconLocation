@@ -8,7 +8,7 @@
               android:paddingLeft="@dimen/activity_horizontal_margin"
               android:paddingRight="@dimen/activity_horizontal_margin"
               android:paddingTop="@dimen/activity_vertical_margin"
-              tools:context="com.kyvlabs.beaconadvertiser.activities.LoginActivity">
+              tools:context="com.kyvlabs.brrr2.activities.LoginActivity">
 
     <!-- Login progress -->
     <ProgressBar
@@ -54,7 +54,7 @@
                 android:maxLines="1"
                 android:singleLine="true"/>
 
-            <com.kyvlabs.beaconadvertiser.activities.support.GroupsTokenComplete
+            <com.kyvlabs.brrr2.activities.support.GroupsTokenComplete
                 android:id="@+id/group_select"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

@@ -1,6 +1,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               xmlns:tools="http://schemas.android.com/tools"
-              android:layout_width="match_parent"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:custom="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
               android:layout_height="match_parent"
               android:gravity="center_horizontal"
               android:orientation="vertical"
@@ -8,7 +10,7 @@
               android:paddingLeft="@dimen/activity_horizontal_margin"
               android:paddingRight="@dimen/activity_horizontal_margin"
               android:paddingTop="@dimen/activity_vertical_margin"
-              tools:context="com.kyvlabs.beaconadvertiser.activities.LoginActivity">
+              tools:context="com.kyvlabs.brrr2.activities.LoginActivity">
 
     <!-- Login progress -->
     <ProgressBar
@@ -17,33 +19,78 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
+        android:layout_gravity="center"
         android:visibility="gone"/>
 
     <ScrollView
         android:id="@+id/login_form"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         >
 
         <LinearLayout
             android:id="@+id/email_login_form"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:background="?colorPrimary"
+            android:orientation="vertical"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="120dp"
+            android:paddingBottom="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp">
 
-            <AutoCompleteTextView
+            <com.rengwuxian.materialedittext.MaterialEditText
                 android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prompt_email"
+                android:textCursorDrawable="@drawable/text_cursor_cyan"
+                android:textSize="20sp"
+                app:met_baseColor="@android:color/white"
+                app:met_floatingLabel="highlight"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:nextFocusDown="@+id/password"
+                android:inputType="textEmailAddress"
+                app:met_maxCharacters="50"
+                app:met_primaryColor="?colorAccent"
+                app:met_clearButton="true"
+                app:met_errorColor="@color/green_complete"
+                app:met_singleLineEllipsis="true" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:textCursorDrawable="@drawable/text_cursor_cyan"
+                app:met_baseColor="@android:color/white"
+                app:met_floatingLabel="highlight"
+                android:inputType="textPassword"
+                android:hint="@string/prompt_password"
+                android:imeActionId="@+id/login"
+                android:imeActionLabel="@string/action_sign_in_short"
+                android:imeOptions="actionNext"
+                android:nextFocusDown="@+id/group_select"
+                app:met_maxCharacters="50"
+                app:met_errorColor="@color/green_complete"
+                app:met_primaryColor="?colorAccent" />
+<!--
+            <AutoCompleteTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/prompt_email"
                 android:imeOptions="actionNext"
                 android:inputType="textEmailAddress"
                 android:maxLines="1"
+                android:text="dirk.vanmerode@thomasmore.be"
                 android:nextFocusDown="@+id/password"
                 android:singleLine="true"/>
 
             <EditText
-                android:id="@+id/password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/prompt_password"
@@ -52,24 +99,63 @@
                 android:imeOptions="actionDone"
                 android:inputType="textPassword"
                 android:maxLines="1"
-                android:singleLine="true"/>
+                android:text="dirk123"
+                android:singleLine="true"/>-->
 
-            <com.kyvlabs.beaconadvertiser.activities.support.GroupsTokenComplete
+            <com.kyvlabs.brrr2.activities.support.GroupsTokenComplete
                 android:id="@+id/group_select"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/select_groups"
                 android:imeOptions="actionDone"
-                android:textColor="@android:color/black"/>
+                android:textColorHint="@color/White"
+                android:background="@null"
+                android:textCursorDrawable="@drawable/text_cursor_cyan"
+                android:textColor="@android:color/white"/>
 
-            <Button
-                android:id="@+id/email_sign_in_button"
-                style="?android:textAppearanceSmall"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:text="@string/action_sign_in"
-                android:textStyle="bold"/>
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1">
+
+                    <CheckBox
+                        android:id="@+id/select_all_groups_checkbox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:textColor="@color/White"
+                        android:text="Select All"
+                        android:buttonTint="@color/White"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:layout_weight="1">
+                    <com.dd.processbutton.iml.GenerateProcessButton
+                        android:id="@+id/email_sign_in_button"
+                        style="?android:textAppearanceSmall"
+                        android:layout_width="120dp"
+                        android:layout_weight="0"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="10dp"
+                        android:text="@string/action_sign_in"
+                        android:textColor="@color/White"
+                        custom:pb_textComplete="Done"
+                        custom:pb_textProgress="Loading"
+                        android:background="@color/colorSecondary"
+                        android:textStyle="bold"/>
+                        </LinearLayout>
+            </LinearLayout>
 
             <Button
                 android:id="@+id/register_button"
@@ -78,6 +164,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:text="@string/action_register"
+                android:visibility="gone"
                 android:textStyle="bold"/>
 
             <com.facebook.login.widget.LoginButton
@@ -96,10 +183,19 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:text="@string/action_forgot_password"
+                android:visibility="gone"
                 android:textStyle="bold"/>
 
         </LinearLayout>
     </ScrollView>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Welcome to BRRR2"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:gravity="center|bottom"
+        android:textSize="10sp"/>
 </LinearLayout>
 
